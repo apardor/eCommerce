@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server: {
     proxy: {
-      "/api/milk": "http://localhost:8080/",
+      "/api/milk": "http://localhost:8000/",
     }
   },
   plugins: [react()]
